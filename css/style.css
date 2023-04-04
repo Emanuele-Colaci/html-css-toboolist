@@ -12,6 +12,7 @@ body{
 #background-logo{
     background-color: white;
     height: 70px;
+    margin-bottom: 50px;
 }
 
 img{
@@ -23,20 +24,23 @@ img{
 h1{
     display: inline;
     font-family: sans-serif;
-   
 }
 /* FINE HEADER */
 
 /* MAIN */
 
 /* BUTTON */
-#container{
-    margin-top: 30px;
-    margin-bottom: 30px;
+.container{
+    margin-top: 3px;
     margin-left: 200px;
     margin-right: 200px;
-    background-color: #ffffff;
-    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 15px; 
+}  
+
+hr{
+    width: 100%;
 }
 
 #button-blue{
@@ -53,10 +57,88 @@ h1{
     padding: 3px;
 }
 
-hr{
-    margin-left: 200px;
-    margin-right: 200px; 
-}
 /* FINE BUTTON */
+
+/* ELENCHI NON RODINATI */
+
+.titolo{
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+
+li{
+    margin-bottom: 5px;
+}
+
+.tli{
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #434750;
+}
+
+.editorial{
+    background-color: #45abea;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 10px;
+    color: white;
+}
+
+#q1_goals{
+    background-color: #9c72e4;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 10px;
+    color: white;
+}
+
+#recruiting{
+    background-color: #64c0a9;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 10px;
+    color: white;
+}
+
+#mobile{
+    background-color: #f29e33;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 10px;
+    color: white;
+}
+
+#website{
+    background-color: #d863a1;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 10px;
+    color: white;
+}
+
+#sales{
+    background-color: #b0c926;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 10px;
+    color: white;
+}
+
+.✓{
+    font-size: 10px;
+    color: #59bca5;
+    border: 1px solid #59bca5 ;
+    border-radius: 50%;
+    padding: 2px;
+}
+
+.x{
+    font-size: 10px;
+    color: #e8443d;
+    border: 1px solid #e8443d ;
+    border-radius: 50%;
+    padding: 2px;
+}
+/* FINE ELENCHI NON RODINATI */
 
 /* FINE MAIN */
