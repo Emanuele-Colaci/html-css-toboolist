@@ -26,3 +26,37 @@ h1{
    
 }
 /* FINE HEADER */
+
+/* MAIN */
+
+/* BUTTON */
+#container{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 200px;
+    margin-right: 200px;
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+#button-blue{
+    background-color: #47adf1;
+    border-radius: 3px;
+    padding: 3px;
+    border: 0;
+}
+
+#button-grey{
+    background-color: white;
+    color: grey;
+    border-radius: 3px;
+    padding: 3px;
+}
+
+hr{
+    margin-left: 200px;
+    margin-right: 200px; 
+}
+/* FINE BUTTON */
+
+/* FINE MAIN */
