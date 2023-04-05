@@ -22,8 +22,9 @@ img{
 }
 
 h1{
-    display: inline;
+    display: inline-block;
     font-family: sans-serif;
+    vertical-align: middle;
 }
 /* FINE HEADER */
 
@@ -61,7 +62,7 @@ hr{
 
 /* ELENCHI NON RODINATI */
 
-.titolo{
+ul{
     list-style-type: none;
     margin-bottom: 20px;
 }
@@ -76,68 +77,51 @@ li{
     color: #434750;
 }
 
+.stile{
+    border-radius: 50%;
+    padding: 5px 7px;
+    font-size: 10px;
+    color: white;
+}
+
 .editorial{
     background-color: #45abea;
-    border-radius: 10px;
-    padding: 5px;
-    font-size: 10px;
-    color: white;
 }
 
-#q1_goals{
+.q1_goals{
     background-color: #9c72e4;
-    border-radius: 10px;
-    padding: 5px;
-    font-size: 10px;
-    color: white;
 }
 
-#recruiting{
+.recruiting{
     background-color: #64c0a9;
-    border-radius: 10px;
-    padding: 5px;
-    font-size: 10px;
-    color: white;
 }
 
-#mobile{
+.mobile{
     background-color: #f29e33;
-    border-radius: 10px;
-    padding: 5px;
-    font-size: 10px;
-    color: white;
 }
 
-#website{
+.website{
     background-color: #d863a1;
-    border-radius: 10px;
-    padding: 5px;
-    font-size: 10px;
-    color: white;
 }
 
-#sales{
+.sales{
     background-color: #b0c926;
-    border-radius: 10px;
-    padding: 5px;
+}
+
+.stail{
+    border-radius: 50%;
+    padding: 2px;
     font-size: 10px;
-    color: white;
 }
 
 .✓{
-    font-size: 10px;
     color: #59bca5;
     border: 1px solid #59bca5 ;
-    border-radius: 50%;
-    padding: 2px;
 }
 
 .x{
-    font-size: 10px;
     color: #e8443d;
-    border: 1px solid #e8443d ;
-    border-radius: 50%;
-    padding: 2px;
+    border: 1px solid #e8443d ;;
 }
 /* FINE ELENCHI NON RODINATI */
 
