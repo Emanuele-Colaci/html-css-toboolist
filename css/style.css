@@ -79,7 +79,6 @@ li{
 .tli{
     font-size: 20px;
     font-family: sans-serif;
-    color: #434750;
     margin-bottom: 10px;
 }
 
@@ -118,6 +117,7 @@ li{
     border-radius: 50%;
     padding: 1px 3px;
     font-size: 10px;
+    margin-right: 10px;
 }
 
 .✓{
